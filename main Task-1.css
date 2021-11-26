@@ -1,0 +1,200 @@
+body{
+    background-color: rgb(221, 219, 219);
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+img{
+    background-color:transparent;
+    width: 35%;
+    height: 35%;
+    padding-top: 30%;
+    z-index: 1;    
+}
+.box{
+    background-color: white;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: transparent;
+    border-radius: 25px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.box img:nth-child(1){
+    display: block;
+}
+.box img:nth-child(2){
+    display: none;
+}
+.box:hover img:nth-child(1){
+    display: none;
+}
+.box:hover img:nth-child(2){
+    display: block;
+    animation: one 10s linear;    
+}
+@keyframes one{
+    0%{
+        transform: scale(1);
+    }
+    2%{
+        transform: scale(1.2);
+    }
+    5%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
+.back1 {
+    position: absolute;
+    top: 150px;
+    right: 115px;
+    width: 170px;
+    height: 90px;
+    background-color: #0e75d4;
+    transition: all 0.5s linear;
+    transform: rotate(45deg) scale(1.4);  
+}
+.item1{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    width: 170px;
+    height: 90px;
+    background-color: #0e75d4;
+    transition: all 0.5s linear;
+    transition-delay: 0.5s;
+}
+.box:hover .back1{
+    top: -20px;
+    right: -20px;
+}
+.box:hover .back1 .item1{
+    top: 25px;
+    left: -25px;
+}
+.back2 {
+    position: absolute;
+    top: 150px;
+    right: 115px;
+    width: 170px;
+    height: 90px;
+    background-color: #40a0fa;
+    transition: all 0.5s linear;
+    transform: rotate(45deg) scale(1.4);
+    
+}
+.item2{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    width: 170px;
+    height: 90px;
+    background-color: #40a0fa;
+    transition: all 0.5s linear;
+    transition-delay: 0.5s;
+}
+.box:hover .back2{
+    top: -20px;
+    right: -20px;
+}
+.box:hover .back2 .item2{
+    top: 25px;
+    left: -25px;
+}
+.back3 {
+    position: absolute;
+    top: 150px;
+    right: 115px;
+    width: 170px;
+    height: 90px;
+    background-color: #da340b;
+    transition: all 0.5s linear;
+    transform: rotate(45deg) scale(1.4);
+    
+}
+.item3{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    width: 170px;
+    height: 90px;
+    background-color: #da340b;
+    transition: all 0.5s linear;
+    transition-delay: 0.5s;
+}
+.box:hover .back3{
+    top: -20px;
+    right: -20px;
+}
+.box:hover .back3 .item3{
+    top: 25px;
+    left: -25px;
+}
+.back4 {
+    position: absolute;
+    top: 150px;
+    right: 115px;
+    width: 170px;
+    height: 90px;
+    background-color: #fd3dcd;
+    transition: all 0.5s linear;
+    transform: rotate(45deg) scale(1.4);
+    
+}
+.item4{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    width: 170px;
+    height: 90px;
+    background-color: #fd3dcd;
+    transition: all 0.5s linear;
+    transition-delay: 0.5s;
+}
+.box:hover .back4{
+    top: -20px;
+    right: -20px;
+}
+.box:hover .back4 .item4{
+    top: 25px;
+    left: -25px;
+}
+.back5 {
+    position: absolute;
+    top: 150px;
+    right: 115px;
+    width: 170px;
+    height: 90px;
+    background-color: #5caef1;
+    transition: all 0.5s linear;
+    transform: rotate(45deg) scale(1.4);   
+}
+.item5{
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    width: 170px;
+    height: 90px;
+    background-color: #5caef1;
+    transition: all 0.5s linear;
+    transition-delay: 0.5s;
+}
+.box:hover .back5{
+    top: -20px;
+    right: -20px;
+}
+.box:hover .back5 .item5{
+    top: 25px;
+    left: -25px;
+}
